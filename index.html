@@ -1,0 +1,83 @@
+<!-- comentario -->
+<!-- Documentacion oficial de htmal: mdn html y w3schools -->
+
+
+<!DOCTYPE html> <!-- es un archivo tipo hmtl -->
+<html Lang = "en"> <!--Aqui comienza mi doc -->
+<head> <!--configuracion de mi sitio, todo lo que necesita para funcionar -->
+    <meta charset="UFF-8">
+    <meta name = "viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><!--Sirve para ligar nuestra hojita de estilos con nuestro html-->
+    <!--Estilo de fuente que elegimos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    
+    <title>Anime</title>
+
+</head> 
+
+<body> <!--todo lo que va dentro del sitio -->
+   
+    <!-- Encabezados -->
+    <!-- <h1>hola mundo!</h1> <!-- h1 = heder, es decir es el encabezado del sitio (las etiquetas siemprese escriben en minusculas)-->
+    <!--<h2>hola mundo!</h2>
+    <h3>hola mundo!</h3>
+    <h4>hola mundo!</h4> -->
+
+    <nav> <!--dentro colocamos las etiquetas anclas para dirigirnos a una parte especifica de nuestra pagina web-->
+     <!--# cuando se trata de un id-->
+    <a href="#Inicio">Inicio</a>
+    <a href="#Cosas_ama">Cosas que ama Monkey D. Luffy</a>
+    <a href="#datos_curiosos">Datos curiosos de One Piece</a>
+    </nav>
+
+     <!-- <p> </p> Nos srive para que nuestro navegador sepa que es un parrafo 
+     <p> texto de parrafo 1 </p>
+     <p> texto de parrafo 2 </p>-->
+
+     <h1>One Piece</h1>
+     <!--El id que generamos lo colocamos en href que son para abrir otra pestana con, pero agregamos un simbolo de # al inicio-->
+     <p id="Inicio"> One Piece es un manga y anime japonés creado por Eiichiro Oda. La historia sigue las aventuras de Monkey D. Luffy, un joven que quiere ser el Rey de los Piratas y que para ello debe encontrar el One Piece, el tesoro más grande del mundo, dejado por el anterior rey, Gol D. Roger. One Piece se publica desde 1997 en la revista Weekly Shonen Jump y cuenta con más de 100 volúmenes </p>
+     
+     <!-- <img src="" alt=""> nos sirve para colocar imagenes src: ruta de imagen alt:descripcion -->
+    <div class="Imagenes">
+     <!-- Imagen de la web -->
+     <!-- En src copiamos y pegamos direccion de la imagen -->
+     <img class="Imagen1" src="https://i.blogs.es/10f32e/319168/840_560.webp" alt="One Piece">  <!-- Esta etiqueta no tiene cierre -->
+     <!--Varias imagenes pueden tener la misma clase-->
+     <!-- Imagen local -->
+     <img class="Imagen2" src="OnePiece.png" alt="One Piece">
+    </div>
+
+    <!--Referenciar otras paginas-->
+    <h2>Mira aqui la galeria</h2>
+    <a href="galeria.html" target="_blank">Galeria</a> <!--Digo donde se encuentra-->
+
+
+    <div class="Cosas">
+    <!-- Lista ordenada-->
+    <h2 id="Cosas_ama">Cosas que ama Luffy</h2>
+    <ol>
+        <li>One Piece</li>
+        <li>Su tripulacion</li>
+        <li>Carne</li>
+        <li>Comida</li>
+    </ol>
+    <!-- Lista desordenada-->
+    <h2>Cosas que no ama Luffy</h2>
+    <ul>
+        <li>Compartir comida</li>
+        <li>Ser heroe: no le gusta porque tendria que compartir comida</li>
+    </ul>
+    </div>
+
+    <!-- Abrir otra pestana -->
+    <h2 id="datos_curiosos">Datos curiosos de One piece</h2>
+    <a href="https://www.nintenderos.com/2022/07/10-curiosidades-de-one-piece-que-nadie-te-ha-contado/" target="_blank">clic para leer</a>
+
+<p>Mi primer sitio web, hecho con amor por Arian en el bootcamp de Tecnolochicas PRO</p>
+
+</body><!--Todo lo que ve el usuario va dentro de body-->
+</html> <!--Aqui termina mi documetno-->

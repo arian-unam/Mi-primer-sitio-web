@@ -1,0 +1,46 @@
+/*comentario */
+body{
+    background-color:#9dccff;
+    /*tipo de fuente que elegi que es PT Serif, serif es la fuente de respaldo*/
+    font-family: "PT Serif", serif;
+    font-size: 20px; /*tamaño de letra*/
+}
+
+/*
+img{
+    /*height: 50px; para modificar el alto
+    width: 200px; /*para modificar el ancho (solo se modifica uno porque sino se deforman las figuras) 
+    border-radius: 100px; /*redondea las figuras
+} 
+*/
+/*Modificando las imagenes por clase*/
+.Imagen1{
+    width: 200px;
+    border-radius: 100px;
+    border:dotted
+}
+
+.Imagen2{
+    height: 150px;
+    border-radius: 100px;
+    opacity: 0.7;
+    border: double;
+}
+
+h2{
+    text-align: center;
+}
+
+.Cosas{
+    /*background-color:lightpink;*/
+    background-image: url("https://i.blogs.es/f8fc51/the-one-piece_3/500_333.jpeg");
+    font-size: 30px;
+    color:navy;
+    background-color:rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
+}
+
+.Imagenes{
+    text-align: center;
+    
+}
